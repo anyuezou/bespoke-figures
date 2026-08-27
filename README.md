@@ -56,6 +56,7 @@ python3 "${SKILL_DIR}/scripts/chart_broken_radial.py" data.xlsx out_stem "Risk|Q
 22 类别 × 12 系列、数值跨 4~5 个数量级、一半为 0 → 任何模板堆叠图都会把中小值压成
 看不见的细线。解决方案与设计理由(为什么断轴、为什么断点自适应、为什么非堆叠分组柱
 等 8 条)记录在 `recipes/broken-radial.md`。
+![示例图](examples/example_chart.png)
 
 ## 风格规范 / Conventions(默认,可覆盖)
 
